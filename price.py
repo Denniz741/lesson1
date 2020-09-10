@@ -10,7 +10,7 @@ def discounted(price,discount,max_discount = 50):
         price_with_discount = price - price * discount / 100
     return price_with_discount
 
-print(discounted(100,49))
+print(discounted(100,23))
 #product = {'name' : "Samsung Galaxy s10" , 'stock' : 8 ,
         #'price' : 50000 , "discount" : 70}
 #product['with_discount'] = discounted(product['price'],
